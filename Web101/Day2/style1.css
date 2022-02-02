@@ -1,0 +1,21 @@
+/* media queries */
+
+@media screen and (max-width:400px){
+    img{
+         width: 350px;
+    }
+}
+
+@media screen and (max-width:720px){
+    img{
+         width: 220px;
+         border-radius: 40px;
+    }
+}
+
+@media screen and (max-width:100px){
+    img{
+         width: 20px;
+         border-radius: 20px;
+    }
+}
