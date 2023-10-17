@@ -1,5 +1,20 @@
-.box{
-    height: 50px;
-    width: 50px;
-    background-color: indianred;
+.box {
+    height: 20vh;
+    width: 200px;
+    background-color: yellowgreen;
+    margin: 20px;
+}
+
+.box-container {
+    background-color: wheat;
+    height: 100vh;
+
+    /* Displays items in horizontal way (side by side) */
+    display: flex;
+
+    /* Move across Main Axis  */
+    justify-content:center;
+
+    /* Move across Cross Axis */
+    align-items: center;
 }

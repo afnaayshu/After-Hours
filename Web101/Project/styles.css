@@ -1,0 +1,59 @@
+.main-heading{
+    font-size: 50px;
+    font-style: italic;
+    color: rgb(86, 28, 110);
+    text-align: center;
+}
+
+body{
+    background-color: #2d1c7986;
+}
+
+
+.poster{
+    border-radius:10px;
+    display: flex;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom: 60px;
+    width: 80%;
+}
+
+ul{ 
+    text-align: center;
+
+} 
+ul :hover{
+    color: blueviolet;
+}
+
+@media screen and (max-width:215px){
+    .main-heading{
+        font-size: 40px;
+    }
+    .poster{
+        border-radius:10px;
+        display: flex;
+        margin-left:auto;
+        margin-right:auto;
+        margin-bottom: 45px;
+        width: 100%;
+    }
+}
+
+.link{
+    margin-top: 10px;
+    margin-bottom: 50px;
+    text-align: center;
+    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    text-decoration: none;
+    color: rgb(65, 39, 179);
+}
+
+.last{
+    text-align: center;
+    color: rgb(94, 34, 190);
+}
+    
