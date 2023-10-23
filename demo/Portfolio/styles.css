@@ -1,69 +1,34 @@
+*{
+   margin: 0;
+   padding: 0; 
+}
+
 body{
-    background-color: rgb(18, 90, 86);
-}
-h1{
-    color: whitesmoke;
-    font-family: cursive;
-    text-align: center;
-    text-decoration: aliceblue;
-}
-h3{
-    color: white;
-    margin-left: 450px;
-    margin-top:20px;
-    font-family: cursive;
-    text-decoration-line: overline;
-}
-.header {
-    background-color: white;
-    /* text-align: center; */
-    overflow: hidden;
-    padding: 20px ;
-    float: right;
-    border-radius: 12px;
-    width: 400px;
-    height: 30px;
-  }
-/* img{
-    width: 30%;
-    padding-right: 60px;
-} */
-p{
-    color: bisque;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-weight: 600;
-    /* margin-left: 300px; */
-    /* padding-right:300px ; */
-    
-}
-span{
-    margin-top:50px;
-}
-div{
-    width: 300px;
-   
-    margin: 20px;
-}
-ul{
-    list-style: bold;
-    margin: auto;
-    padding-left: 20px;
-    
-}
-li{
-    display: inline;
-   
-   
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-.bar{
-    /* display: block; */
-    padding: 10px;
-    background-color: rgb(18, 90, 86);
-    border-radius: 10px;
-    
-
+html{
+    scroll-behavior: smooth;
 }
+
+.nav, .nav-links{
+    display: flex;
+}
+
+.nav{
+    justify-content: space-around;
+    align-items: center;
+    height: 17vh;
+}
+
+.nav-links{
+    gap: 2cm;
+    font-size: 15px;
+    text-decoration: none;
+}
+
 a{
-    color: white;
+    text-decoration: none;
+    color: black;
+    text-underline-offset: 1rem;
 }
