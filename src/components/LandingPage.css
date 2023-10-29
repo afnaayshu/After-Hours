@@ -1,0 +1,35 @@
+/* Reset some default browser styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the landing page container */
+.landing-page {
+    font-family: Arial, sans-serif;
+}
+
+/* Style the hero section */
+#hero {
+    background-image: url(./images/pexels-aleksandar-pasaric-2434627.jpg); /* Replace with your image URL */
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 300px 0;
+}
+
+#hero h1 {
+    font-size: 64px;
+    margin-bottom: 20px;
+    text-shadow: 4px 4px 12px rgba(0, 0, 0, 0.7);
+}
+
+#hero p {
+    font-size: 32px;
+    color: rgb(252, 252, 252);
+    text-shadow: 4px 4px 12px rgba(0, 0, 0, 0.7);
+    
+}
+
+/* Add styles for other sections, buttons, and footer as needed */
